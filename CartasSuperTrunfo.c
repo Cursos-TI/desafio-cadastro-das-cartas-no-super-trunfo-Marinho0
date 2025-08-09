@@ -8,4 +8,30 @@ int main(){
     float area, pib;
     
     // coleta de dados da carta
+
+    printf("digite o estado da primeira carta:\n");
+    scanf("%s", estado);
+    printf("digite o codigo da primeira carta:\n");
+    scanf("%s", codigo);
+    printf("digite a cidade capital da primeira carta:\n");
+    scanf("%s", cidade);
+    printf("digite o numero de habitantes da primeira carta:\n");
+    scanf("%d", &populacao);
+    printf("digite o pib da primeira carta:\n");
+    scanf("%f", &pib);
+    printf("digite o numero de pontos turisticos da primeira carta:\n");
+    scanf("%d", &pontosTuristicos);
+    printf("digite a area em m² da cidade primeira carta:\n");
+    scanf("%f", &area);
+
+    printf("dados da primeira carta:\n");
+    printf("Estado: %s\n", estado);
+    printf("Codigo: %s\n", codigo);
+    printf("Cidade: %s\n", cidade);
+    printf("Numero de habitantes: %d\n", populacao);
+    printf("Numero de pontos turisticos: %d\n", pontosTuristicos);
+    printf("Area em m²: %.2f\n", area);
+    printf("PIB: %.2f\n", pib);
+
+
 }
